@@ -1,0 +1,1066 @@
+{
+	"shape" : 
+	{
+		"count" : 6,
+		"data" : 
+		[
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							0.0,
+							-15.0,
+							-50.0
+						],
+						[
+							0.0,
+							15.0,
+							-50.0
+						],
+						[
+							500.0,
+							-15.0,
+							-50.0
+						],
+						[
+							500.0,
+							15.0,
+							-50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			},
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							0.0,
+							15.0,
+							50.0
+						],
+						[
+							500.0,
+							15.0,
+							50.0
+						],
+						[
+							0.0,
+							15.0,
+							-50.0
+						],
+						[
+							500.0,
+							15.0,
+							-50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			},
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							500.0,
+							-15.0,
+							50.0
+						],
+						[
+							500.0,
+							15.0,
+							50.0
+						],
+						[
+							0.0,
+							-15.0,
+							50.0
+						],
+						[
+							0.0,
+							15.0,
+							50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			},
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							0.0,
+							-15.0,
+							-50.0
+						],
+						[
+							500.0,
+							-15.0,
+							-50.0
+						],
+						[
+							0.0,
+							-15.0,
+							50.0
+						],
+						[
+							500.0,
+							-15.0,
+							50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : true,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			},
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							500.0,
+							-15.0,
+							-50.0
+						],
+						[
+							500.0,
+							15.0,
+							-50.0
+						],
+						[
+							500.0,
+							-15.0,
+							50.0
+						],
+						[
+							500.0,
+							15.0,
+							50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			},
+			{
+				"control_points" : 
+				{
+					"points" : 
+					[
+						[
+							0.0,
+							-15.0,
+							-50.0
+						],
+						[
+							0.0,
+							-15.0,
+							50.0
+						],
+						[
+							0.0,
+							15.0,
+							-50.0
+						],
+						[
+							0.0,
+							15.0,
+							50.0
+						]
+					]
+				},
+				"degree_u" : 1,
+				"degree_v" : 1,
+				"dimension" : 3,
+				"knotvector_u" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"knotvector_v" : 
+				[
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"rational" : false,
+				"reversed" : true,
+				"size_u" : 2,
+				"size_v" : 2,
+				"trims" : 
+				{
+					"count" : 1,
+					"data" : 
+					[
+						{
+							"count" : 4,
+							"data" : 
+							[
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												0.0
+											],
+											[
+												1.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												1.0,
+												1.0
+											],
+											[
+												0.0,
+												1.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												0.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								},
+								{
+									"control_points" : 
+									{
+										"points" : 
+										[
+											[
+												0.0,
+												0.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										]
+									},
+									"degree" : 1,
+									"dimension" : 2,
+									"knotvector" : 
+									[
+										0.0,
+										0.0,
+										1.0,
+										1.0
+									],
+									"rational" : false,
+									"reversed" : false,
+									"type" : "spline"
+								}
+							],
+							"reversed" : true,
+							"type" : "container"
+						}
+					]
+				}
+			}
+		],
+		"type" : "curve"
+	}
+}
