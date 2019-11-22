@@ -3,6 +3,7 @@ package com.serbs.project.parsejson;
 
 import java.io.FileReader;
 import java.util.Iterator;
+import org.apache.commons.lang3.StringUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
@@ -27,7 +28,7 @@ public class JSONReadImpl {
 
       for (int i = 0; i < dataJsonArr.size(); i++) {
         JSONObject dataJsonObj = (JSONObject) dataJsonArr.get(i);
-        System.out.println("Level0: " + dataJsonObj.get("control_points"));
+        //	    System.out.println("Level0: " + dataJsonObj.get("control_points"));
 
         // To get Coordinates of NURBS Curve/Plane
         level1JsonObj = (JSONObject) parser.parse(dataJsonObj.get("control_points").toString());
@@ -35,7 +36,7 @@ public class JSONReadImpl {
         ctrPointsJsonArr.add(level1JsonObj);
         for (int ctrPointsItr = 0; ctrPointsItr < ctrPointsJsonArr.size(); ctrPointsItr++) {
           JSONObject ctrPointsJsonObj = (JSONObject) ctrPointsJsonArr.get(ctrPointsItr);
-          System.out.println("Level1: " + ctrPointsJsonObj.get("points"));
+          // System.out.println("Level1: " + ctrPointsJsonObj.get("points"));
 
           // To get individual Coordinates of Nurbs Curve/Plane Vertices
           JSONArray pointsJsonArr = new JSONArray();
@@ -45,13 +46,26 @@ public class JSONReadImpl {
           while (pointsItr.hasNext()) {
 
             JSONArray pointsItrJsonArr = pointsItr.next();
-            for (int getPointItr = 0; getPointItr < 4; getPointItr++)
-              System.out.println(pointsItrJsonArr.get(getPointItr));
-          }
-          for (int i2 = 0; i2 < pointsJsonArr.size(); i2++) {
+            for (int getPointItr = 0; getPointItr < 4; getPointItr++) {
+              // System.out.print(pointsItrJsonArr.get(getPointItr));
 
-            System.out.println("Level2: " + pointsJsonArr.get(i2));
+              String xCord =
+                  StringUtils.substringBetween(
+                      pointsItrJsonArr.get(getPointItr).toString(), "[", ",");
+              String yCord =
+                  StringUtils.substringBetween(
+                      pointsItrJsonArr.get(getPointItr).toString(), ",", ",");
+              String zCord1 =
+                  StringUtils.substringAfterLast(pointsItrJsonArr.get(getPointItr).toString(), ",");
+              String zCord = StringUtils.substringBefore(zCord1, "]");
+              System.out.print(xCord + " 	" + yCord + " 	" + zCord + " 	");
+            }
+            System.out.println();
           }
+          /*          for (int i2 = 0; i2 < pointsJsonArr.size(); i2++) {
+
+          				System.out.println("Level2: " + pointsJsonArr.get(i2));
+          }*/
         }
       }
     }
