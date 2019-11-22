@@ -5,7 +5,7 @@ APIs provided by nurbs-python (these APIs are deprecated; executables are availa
 **Deprecated (included to give a brief view of NURBS APIs)
 **Imports curves and surfaces from Rhinoceros/OpenNURBS .3dm files
   Parameters:	file_name (str) – input file name
-1.	geomdl.exchange.import_3dm(file_name, **kwargs)
+API - geomdl.exchange.import_3dm(file_name, **kwargs)
 
 
 JSON Data from CAD Model:
