@@ -14,7 +14,7 @@ public class JSONReadImpl {
     JSONObject level1JsonObj = null;
 
     JSONParser parser = new JSONParser();
-    Object shape = parser.parse(new FileReader("beam.json"));
+    Object shape = parser.parse(new FileReader("platewith200mmhole.json"));
     JSONObject shapeJsonObj = (JSONObject) shape;
 
     JSONArray shapesJsonArr = new JSONArray();
@@ -28,7 +28,6 @@ public class JSONReadImpl {
 
       for (int i = 0; i < dataJsonArr.size(); i++) {
         JSONObject dataJsonObj = (JSONObject) dataJsonArr.get(i);
-        //	    System.out.println("Level0: " + dataJsonObj.get("control_points"));
 
         // To get Coordinates of NURBS Curve/Plane
         level1JsonObj = (JSONObject) parser.parse(dataJsonObj.get("control_points").toString());
@@ -36,7 +35,6 @@ public class JSONReadImpl {
         ctrPointsJsonArr.add(level1JsonObj);
         for (int ctrPointsItr = 0; ctrPointsItr < ctrPointsJsonArr.size(); ctrPointsItr++) {
           JSONObject ctrPointsJsonObj = (JSONObject) ctrPointsJsonArr.get(ctrPointsItr);
-          // System.out.println("Level1: " + ctrPointsJsonObj.get("points"));
 
           // To get individual Coordinates of Nurbs Curve/Plane Vertices
           JSONArray pointsJsonArr = new JSONArray();
@@ -46,8 +44,9 @@ public class JSONReadImpl {
           while (pointsItr.hasNext()) {
 
             JSONArray pointsItrJsonArr = pointsItr.next();
-            for (int getPointItr = 0; getPointItr < 4; getPointItr++) {
-              // System.out.print(pointsItrJsonArr.get(getPointItr));
+            Iterator<JSONArray> pointsItrJsonArrItr = pointsItrJsonArr.iterator();
+            int itrbc = pointsItrJsonArr.size();
+            for (int getPointItr = 0; getPointItr < itrbc; getPointItr++) {
 
               String xCord =
                   StringUtils.substringBetween(
@@ -62,10 +61,6 @@ public class JSONReadImpl {
             }
             System.out.println();
           }
-          /*          for (int i2 = 0; i2 < pointsJsonArr.size(); i2++) {
-
-          				System.out.println("Level2: " + pointsJsonArr.get(i2));
-          }*/
         }
       }
     }
